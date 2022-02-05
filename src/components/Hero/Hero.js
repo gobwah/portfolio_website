@@ -16,7 +16,7 @@ const Hero = (props) => (
         Vincent's Portfolio
       </SectionTitle>
       <SectionText>
-        My name is Vincent Della Libera and I am a web developer.
+        My name is Vincent Della Libera and I am a web developer!
       </SectionText>
       <Button onClick={() => (window.location = '#about')}>Learn More</Button>
     </LeftSection>
