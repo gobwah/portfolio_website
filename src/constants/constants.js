@@ -1,46 +1,60 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'CLOChèTE',
+    description:
+      'The collaborative project CLOChèTE aims to propose and evaluate innovative solutions based on connected objects to help the management of herds and the enhancement of pastoral areas. I took part of this project for my master thesis. I defined the functionnal aspects of this tool and compare two inertial devices for behaviour recognition with a statistical aproach.',
+    image: '/images/1.jpg',
+    tags: ['MATLAB', 'IMU', 'AI', 'Statistics'],
+    source: 'https://idele.fr/clochete/',
+    visit: '',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'MyGhibliList',
+    description:
+      'My first React application. I built it in order to learn React.js. I used the Ghibli API to make a simple webpage rendering Ghibli movies.',
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://gobwah.github.io/my-ghibli-list',
+    visit: 'https://github.com/gobwah/my-ghibli-list',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Odometry',
+    description:
+      'During my master degree, I had to make a project for a company named Terabee. With 2 other students, we implemented an embedded system to trace the odometry of a mobile robot on a 6x6m area with computer vision.',
+    image: '/images/3.png',
+    tags: ['Raspberry PI', 'Python', 'OpenCV', 'ArUco'],
+    source: 'https://www.terabee.com/',
+    visit: '',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: 'Tracking Robot',
+    description:
+      'I had 4 academic projects to conduct for my MSc in Robotics and one of them was to implement an embedded tracking system. Mounted on a famous autonomous vacuum robot, the system is able to track a person thanks to its sensors and a statistical-based model.',
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['C', 'Java', 'Statistics', 'Robotics'],
+    source: '',
+    visit: '',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2015, text: 'Bachelor degree in System Engineering' },
+  { year: 2018, text: 'Academic mobility in Sapporo, Japan' },
+  {
+    year: 2019,
+    text: 'Master degree in Mechatronics, Embedded Systems and Electrical Engineering',
+  },
+  { year: 2019, text: 'Master of Science in Robotics and Embedded Systems' },
+  { year: 2020, text: 'Java developer at DIMO Software' },
+];
+
+export const accomplishments = [
+  { number: 2, text: 'Master degrees' },
+  { number: 1, text: 'Degree with distinctions' },
+  { number: 1, text: 'Published scientific paper' },
+  { number: 4, text: 'Open Source Projects' },
 ];
