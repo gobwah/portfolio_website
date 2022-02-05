@@ -32,17 +32,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#about" as={process.env.BACKEND_URL + '/#about'}>
+        <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#projects" as={process.env.BACKEND_URL + '/#projects'}>
+        <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech" as={process.env.BACKEND_URL + '/#tech'}>
+        <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
