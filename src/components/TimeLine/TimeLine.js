@@ -18,6 +18,8 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import { me } from '../../constants/constants';
+import ImageSlider from '../ImageSlider/ImageSlider';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -67,6 +69,7 @@ const Timeline = () => {
     <Section nopadding id="about">
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
+      <ImageSlider slides={me} />
       <SectionText>
         Hello there, my name is Vincent DELLA LIBERA and I am a french web
         developer. I come from the South West of France in a famous region named
@@ -74,18 +77,21 @@ const Timeline = () => {
         the Atlantic ocean, and its unique culture. I grew up and live in a city
         called Bayonne where I made my studies and currently work.
         <br />
+        <br />
         I graduated with a Master degree in engineering from the french school
         of engineering ESTIA but also graduated with a Master of Science in
         Robotics from Salford University in UK. As you can see, I am not
         initially specialized in web development but I had the opportunity to
         enter this world and I took it! Now, I work as a Java developer at DIMO
-        Software and I am part of the dev team of the CRM solution named
-        YellowBox.
+        Software and I am part of the dev team in charge of the CRM solution
+        named YellowBox.
         <br />
-        As I am living next to the ocean, I am obviously a surfer and my
-        favourite spot is the "Chambre d'amour" beach in Anglet. I am also a
-        huge fan of anime and manga.
+        <br />
+        As I am living next to the ocean, I like surfing and my favourite spot
+        is the "Chambre d'amour" beach in Anglet. I am also a huge fan of anime
+        and manga.
       </SectionText>
+      <br />
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

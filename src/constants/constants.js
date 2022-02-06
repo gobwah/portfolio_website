@@ -54,7 +54,22 @@ export const TimeLineData = [
 
 export const accomplishments = [
   { number: 2, text: 'Master degrees' },
-  { number: 1, text: 'Degree with distinctions' },
+  { number: 1, text: 'Degree with distinction' },
   { number: 1, text: 'Published scientific paper' },
-  { number: 4, text: 'Open Source Projects' },
+  { number: 5, text: 'Open Source Projects' },
+];
+
+export const me = [
+  {
+    src: '/images/me1.jpg',
+    alt: 'Simply me',
+  },
+  {
+    src: '/images/me2.jpg',
+    alt: 'Me with the shika in Nara',
+  },
+  {
+    src: '/images/me3.jpg',
+    alt: 'Me surfing 🤙',
+  },
 ];

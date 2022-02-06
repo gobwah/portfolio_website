@@ -19,10 +19,6 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+33645593275">+33 6 45 59 32 75</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:vincent.dellalibera@gmail.com">
             vincent.dellalibera@gmail.com
@@ -31,7 +27,12 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>I don't know everything, I just know what I know</Slogan>
+          <Slogan>
+            Built from{' '}
+            <a href="https://www.youtube.com/watch?v=OPaLnMw2i_0">
+              JavaScript Mastery portfolio project
+            </a>
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com">

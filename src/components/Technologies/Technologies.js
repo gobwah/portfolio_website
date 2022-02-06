@@ -28,7 +28,7 @@ const Technologies = () => (
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       I made lot of projects during my education where I learnt several
-      technologies and approaches. Currently, I am working a with Java for the
+      technologies and approaches. Currently, I am working with Java for the
       backend, HTML/CSS/Js for the frontend and MySQL/SQL Server for the
       databases.
     </SectionText>
